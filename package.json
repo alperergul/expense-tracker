@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.2"
+  },
+  "bin": {
+    "expense-tracker": "./bin/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.3",
+    "commander": "^13.0.0"
+  }
+}
